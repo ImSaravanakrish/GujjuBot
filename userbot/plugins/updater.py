@@ -1,6 +1,6 @@
 """Update UserBot code
 Syntax: .update"""
-
+# rewritten by @saravanakrish 
 import git
 from contextlib import suppress
 import os
@@ -15,7 +15,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/japarmar/GujjuBot"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/ivetri/Tamilbot"
 BOT_IS_UP_TO_DATE = "the userbot is up-to-date."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
@@ -26,7 +26,7 @@ NEW_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "updating ..."
 )
-REPO_REMOTE_NAME = "temponame"
+REPO_REMOTE_NAME = "tamilbot"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
 NO_HEROKU_APP_CFGD = "no heroku application found, but a key given? 😕 "
